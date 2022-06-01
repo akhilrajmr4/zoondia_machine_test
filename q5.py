@@ -8,5 +8,5 @@
 
 names = ["apple", "mango", "banana", "apple", "apple", "mango"]
 	
-_dict = { x:x for x in names }
+_dict = { x:names.count(x) for x in names }
 print(_dict)
